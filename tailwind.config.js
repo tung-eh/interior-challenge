@@ -7,7 +7,9 @@ module.exports = {
         layout: 'auto 1fr auto',
       },
       fontFamily: {
-        footer: ['Montserrat', 'sans-serif'],
+        sans: ['Montserrat', 'sans-serif'],
+        serif: ['Lora', 'serif'],
+        logo: ['"Crimson Pro"', 'serif'],
       },
     },
   },
