@@ -22,9 +22,10 @@ function App() {
   return (
     <div className="grid grid-rows-layout text-white min-h-screen max-w-6xl p-4 md:py-10 mx-auto">
       <div className="flex justify-between">
-        <div className="uppercase border font-logo text-xs leading-3 p-2">
+        <button className="group relative uppercase border font-logo text-xs leading-3 overflow-hidden p-2">
           This Interior
-        </div>
+          <div className="group-hover:translate-x-36 transition-all duration-500 absolute -top-5 -left-12 w-10 h-20 opacity-40 bg-white transform rotate-12" />
+        </button>
         <Navbar />
       </div>
       <div className="grid md:grid-cols-content gap-14 my-20 md:my-32">
