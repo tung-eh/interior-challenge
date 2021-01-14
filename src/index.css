@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro:200&display=swap');
+
+html {
+  font-size: 18px;
+}
+
+#root {
+  @apply bg-gray-900;
+}
