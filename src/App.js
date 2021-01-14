@@ -20,7 +20,7 @@ const DesignerInfo = () => (
 
 function App() {
   return (
-    <div className="grid grid-rows-layout text-white min-h-screen max-w-6xl py-10 px-4 mx-auto">
+    <div className="grid grid-rows-layout text-white min-h-screen max-w-6xl p-4 md:py-10 mx-auto">
       <div className="flex justify-between">
         <div className="uppercase border font-logo text-xs leading-3 p-2">
           This Interior
@@ -30,11 +30,11 @@ function App() {
       <div className="grid md:grid-cols-content gap-14 my-20 md:my-32">
         <div>
           <h1 className="font-serif text-5xl">Modern interior</h1>
-          <p className="max-w-xs text-xl my-8">
+          <p className="max-w-xs text-xl font-light my-8">
             A full-servic residential & commercial interior design and staging
             company offering professional organizing & eco&#8209;services.
           </p>
-          <button className="font-semibold">
+          <button>
             Read more <TrendingFlat className="inline w-5 h-5 ml-2" />
           </button>
         </div>
