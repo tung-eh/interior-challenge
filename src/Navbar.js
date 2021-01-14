@@ -5,7 +5,7 @@ import Menu from './icons/Menu'
 
 const Nav = ({ active, children }) => {
   return (
-    <a href="/#" className={active ? 'font-bold' : ''}>
+    <a href="/#" className={active ? 'font-bold' : 'transform hover:scale-105'}>
       {children}
     </a>
   )
@@ -25,7 +25,9 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="hidden md:grid grid-cols-4 gap-12">{navs}</div>
+      <div className="hidden md:grid grid-cols-4 gap-12 justify-items-center">
+        {navs}
+      </div>
       <button className="md:hidden" onClick={() => setOpen(true)}>
         <Menu />
       </button>
