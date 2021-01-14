@@ -34,8 +34,9 @@ function App() {
             A full-servic residential & commercial interior design and staging
             company offering professional organizing & eco&#8209;services.
           </p>
-          <button>
-            Read more <TrendingFlat className="inline w-5 h-5 ml-2" />
+          <button className="group">
+            Read more{' '}
+            <TrendingFlat className="transform group-hover:translate-x-2  transition-all inline w-5 h-5 ml-2" />
           </button>
         </div>
         <div className="relative mb-20">
