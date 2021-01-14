@@ -4,7 +4,7 @@ import designerAvatar from './images/photo2.png'
 import landingImg from './images/photo1.png'
 
 const DesignerInfo = () => (
-  <div className="absolute -bottom-24 right-8 bg-gray-900 grid grid-cols-card gap-4 w-7/12 shadow-card px-10 py-6">
+  <div className="absolute -bottom-24 right-4 md:right-8 bg-gray-900 grid grid-cols-card gap-4 w-10/12 md:w-7/12 shadow-card px-10 py-6">
     <img className="w-12 rounded-full" src={designerAvatar} alt="designer" />
     <div className="flex flex-col justify-evenly">
       <h2 className="text-sm">Aliza Webber</h2>
@@ -27,7 +27,7 @@ function App() {
         </div>
         <Navbar />
       </div>
-      <div className="grid grid-cols-content gap-14 my-32">
+      <div className="grid md:grid-cols-content gap-14 my-20 md:my-32">
         <div>
           <h1 className="font-serif text-5xl">Modern interior</h1>
           <p className="max-w-xs text-xl my-8">
