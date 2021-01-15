@@ -32,7 +32,7 @@ module.exports = {
       keyframes: {
         readmore: {
           '0%, 100%': { transform: 'translateX(0)' },
-          '25%': { transform: 'translateX(0.5rem)' },
+          '75%': { transform: 'translateX(0.5rem)' },
         },
       },
     },
