@@ -37,7 +37,7 @@ function App() {
           </p>
           <button className="group">
             Read more{' '}
-            <TrendingFlat className="transform group-hover:translate-x-2  transition-all inline w-5 h-5 ml-2" />
+            <TrendingFlat className="transform group-hover:animate-readmore  transition-all inline w-5 h-5 ml-2" />
           </button>
         </div>
         <div className="relative mb-20">

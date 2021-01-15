@@ -26,11 +26,21 @@ module.exports = {
       boxShadow: {
         card: '0px 4px 4px rgba(0, 0, 0, 0.25)',
       },
+      animation: {
+        readmore: 'readmore 1s ease infinite',
+      },
+      keyframes: {
+        readmore: {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '25%': { transform: 'translateX(0.5rem)' },
+        },
+      },
     },
   },
   variants: {
     extend: {
       translate: ['group-hover'],
+      animation: ['group-hover'],
     },
   },
   plugins: [],
